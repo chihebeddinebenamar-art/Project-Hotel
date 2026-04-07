@@ -47,16 +47,16 @@ class AppColors {
 
 /// Chemins centralisés vers les fichiers [AssetImage] (dossier `images/` à la racine du projet).
 ///
-/// Fichiers attendus : [logo], puis [image1] … [image5] (remplacez les fichiers par vos photos).
+/// Fichiers : `logo.png`, `image1.png` … `image5.png`.
 class AppAssets {
   AppAssets._();
 
   static const String logo = 'images/logo.png';
-  static const String image1 = 'images/image1.jpg';
-  static const String image2 = 'images/image2.jpg';
-  static const String image3 = 'images/image3.jpg';
-  static const String image4 = 'images/image4.jpg';
-  static const String image5 = 'images/image5.jpg';
+  static const String image1 = 'images/image1.png';
+  static const String image2 = 'images/image2.png';
+  static const String image3 = 'images/image3.png';
+  static const String image4 = 'images/image4.png';
+  static const String image5 = 'images/image5.png';
 
   /// Mosaïque d’onboarding (5 visuels).
   static const List<String> collageImages = [
